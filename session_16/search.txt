@@ -1,0 +1,13 @@
+- functions with arguments can't be assigned as actions in html but assigned in script files and arguments are either getten from selected elements by query selector or function parameter/s (in case the button/trigger element is rendered by a function)?
+This makes all/most of functions not taking arguments i,e stateless?
+- Hanging then() on request success.
+- does browser refresh by default after request?
+- Is n.id in onclick _and any parameter from script files in general called onclick_ attendant in callback function context? does onclick assign listening task to the browser in the origin as addEventListener does?
+- What's the name of the concept supporting not passing isEditOn as a parameter and calling it from the function instead?
+- REST methods syntax
+- Check point before previous, what's better pass isEditON negation from editNote() to togglEditMode() or call it inside toggleEditMode()? (global)
+- what's !0 ?
+- childElementCount with row, counting children
+- try catch{} vs .catch()
+- Optimizing toggling and conditions in toggleEditMode()
+- Is 

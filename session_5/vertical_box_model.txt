@@ -1,0 +1,3 @@
+#### Centralizing elements vertically by margin:auto;
+- Give father a height
+- Use position, inset:0; in child

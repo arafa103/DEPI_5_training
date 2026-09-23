@@ -1,0 +1,2 @@
+- display: none; => removing the whole element from page layout.
+- overflow: hidden; => clipping content exceeding padding box.

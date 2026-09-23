@@ -1,0 +1,15 @@
+html{
+    --main-orange:#F4623A;
+    --bg-grey:rgba(105, 112,122, .7);
+    --bg-dark:#212529;
+    --bg-footer:#f8f9fa;
+    --inpt-border-color: rgb(206, 212, 218);
+    --project-orange: rgba(244, 98, 58, 0.9);
+    --text-grey:rgba(255,255,255,.7);
+    --txt-dark-grey:rgb(108, 117, 125);
+    --merriweather-font: "Merriweather Sans", sans-serif;
+    --btn-hover-orange:#cf5331;
+    --btn-hover-bg:rgba(33, 37, 41, .3);
+    --input-focus-border-color:#dc3545;
+    --input-focus-shadow-color:rgba(220, 53, 69, 0.25);
+}

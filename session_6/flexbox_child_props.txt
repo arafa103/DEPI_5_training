@@ -1,0 +1,11 @@
+- Order: child order in row/column, default= 0.
+
+
+##### Flex-basis, flex-grow vs. flex-shrink
+- Flex-basis: initial main dimension, i,e dimension on main axis, default is auto, setting dimension to content dimension, this is also dynamic according to content(a long p would have long dimension range changing lines number).
+- flex-grow can be said to be the proportion of basis of child when father dimension > all children basis, and flex-shrink is similar when father dimension < all children basis, but when shrinking , shrink factor != flex-shrink, but flex-shrink * flex-basis, i,e children grow upon flex-grow only, but shrink upon flex-shrink and flex-basis.
+  grow default is 0, children don't grow, shrink default is 1.
+
+- shorthand: flex:grow shrink basis;   flex:1; sets basis to 0, basis is set upon free space through flex-grow value regardless from content dimension.
+
+- align-self: redefines alignment of this child;

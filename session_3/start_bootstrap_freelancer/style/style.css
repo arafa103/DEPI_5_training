@@ -1,0 +1,68 @@
+@import url("./reset.css");
+@import url("./variables.css");
+
+body{
+    font-family: roboto, sans-serif;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* utilities */
+.wrapper{
+    width: 75%;
+    margin: auto;
+}
+.clearfix{
+    clear:both;
+}
+
+
+/* navbar */
+nav{
+    background-color: var(--bg-blue);
+    .wrapper{
+        min-height: 4rem;
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+    .brand{
+        float: left;
+        a{
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+    }
+    .navigation{
+        float: right;
+        li{
+            display: inline-block;
+            margin: .5rem .8rem auto auto;
+            font-size: 1rem;
+            font-weight: bold;
+            :hover{
+                color: #1abc9c;
+            }
+        }
+    }
+}
+
+
+/* hero */
+header{
+    background-color: var(--bg-green);
+    text-align: center;
+    .wrapper{
+        padding-top: 5rem;
+    }
+    img{
+        width: 160px;
+    }
+    
+}

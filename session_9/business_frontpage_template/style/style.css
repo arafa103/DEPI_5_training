@@ -1,0 +1,10 @@
+@import url("reset.css");
+
+/* header */
+body{
+    font-family: "Barlow", sans-serif;
+}
+
+header h1{
+    font-size: 3rem;
+}

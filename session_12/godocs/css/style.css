@@ -1,0 +1,71 @@
+/* typoaphy */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  /* font-size: 16px; */
+  line-height: 1.6;
+  color: #333;
+}
+@font-face {
+    font-family: figtree-extra-bold;
+    src: url("/fonts/static/Figtree-ExtraBold.ttf");
+}
+
+
+/* general rules */
+h1, h2, h3{
+    font-family: figtree-extra-bold, sans-serif;
+}
+
+
+/* header */
+header .container{
+    gap: 4rem !important;
+    h1{
+    font-family: figtree-extra-bold, sans-serif;
+    font-size: 3rem;
+    }
+    p{
+        font-family: "Montserrat", sans-serif;
+        color: #333;
+    }
+    input{
+        border: none;
+    }
+    input:hover, input:focus{
+        outline:none;
+    }
+}
+
+
+#topics .container{
+    h2{
+        font-family: figtree-extra-bold, sans-serif;
+        font-size: 2rem !important;
+    }
+    .topics-container{
+        gap: 3rem;
+        .topic{
+            i{
+                position: relative;
+                /* display: inline-block; */
+            }
+            i::before{
+                position: absolute;
+            }
+        }
+    }
+}
+
+/* questions - grid */
+/* #grid .question-box */
+
+
+/* footer */
+footer :last-child p{
+    font-size: .8rem !important;
+    a{
+        font-size: .8rem !important;
+    }
+}

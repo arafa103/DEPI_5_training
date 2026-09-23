@@ -1,0 +1,8 @@
+- What differs in data field with initial value in UML from unset one? for the initial value should we initialize data field with it or only put it in default value in constructor?
+- Enums vs. strucs/js objects
+- 1.7: enum{1:31}
+- 2.1: 
+    forcing values to be 'm' or 'f' without enums
+    null isn't object? why couldn't put it as default value for author in book's constructor? or normal object is different from class-based object?
+    new Array(2); arr.push puts in index 2 leaving first 2 empty?
+    Why did a warning rise when adding authors[] parameter in constructor and was canceled when authors argument's type was set to author[]?

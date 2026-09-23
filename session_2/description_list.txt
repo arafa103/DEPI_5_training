@@ -1,0 +1,18 @@
+- Description list is a semantic structure in html that might be thought of as unordered lists providing description/s to its elements.
+- The structure consists of a <dl> tag - the container, a <dt> for a term(i,e item), and 0:many <dd> tag - description for each term/item.
+- here's an example:
+        <dl>
+        <dt>Linkedin</dt>
+        <dd><a href="www.linkedin.com/in/ahmad-arafa-57306623a" target="_blank">here</a></dd>
+        <dt>Gmail</dt>
+        <dd><a href="mailto:a7mad3arafa25@gmail.com" target="_blank">here</a></dd>
+        <dt>Upwork</dt>
+        <dd>still not ready</dd>
+        </dl>
+    the result:
+        Linkedin
+            here
+        Gmail
+            here
+        Upwork
+            still not ready

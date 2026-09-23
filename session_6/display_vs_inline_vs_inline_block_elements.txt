@@ -1,0 +1,7 @@
+### block-level vs. inline elements
+- Block-level elements: start on a new line, initial-width = 100%,  respecting box model, thus, specifying width + margin auto centralizes block-level elements
+- Inline elements: start on same line, initial width=content width, for box model:
+	- dimensions: ignored
+	- visual padding,margin: only visually respected
+	- horizontal padding,margin: respected visually and in layout
+- inline block elements: hybrid, same line, initial width = content width, respect box model

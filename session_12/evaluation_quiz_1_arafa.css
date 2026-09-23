@@ -1,0 +1,16 @@
+/* 
+
+Q1)
+1- :is(){}
+2- :has(){}
+3- :not(){}
+
+Q2)
+1- 50px, 150px, 300px
+2- line-height: 20px; sets line height to 20 px, descendant element inherits fixed line-height of 20px.
+   line-height: 2; sets line height to 2em which is 32px by default, descendant element inherits line-height multiplier 2
+    , i,e child line-height multiplier = 2, i,e child's default line-height is 2em
+3- :nth-child(2 + 3n)
+4- a[href^="#"]
+5- 5% of element's width - 5px
+*/

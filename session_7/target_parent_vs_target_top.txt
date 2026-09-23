@@ -1,0 +1,2 @@
+- target="_parent" => propagates frame to direct parent.
+- target="_top" => propagates frame to top element, i,e body, i,e frame opens in the whole body.

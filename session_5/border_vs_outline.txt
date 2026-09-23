@@ -1,0 +1,6 @@
+- border is a layer of box model between padding and margin, a part of layout, affecting element dimensions, and pushing inner content if sizing is border-box, with ability to customize each border edge.
+use cases: structural design, visual separation(e,g table cells), and interactive elements, different-edge framing.
+- outline is separate from box model, visually drawn regardless from layout, sets outside border overlapping margin, and maybe other content.
+use cases: accessability - providing visible focus indicator, non-distruptive highlighting - drawing attention to element without pushing inner or surrounding content, debugging.
+- Why can't we set a single-edge outline?
+    Answer: In opposite to border, outline doesn't consist of 4 edges, it is an atomic visual layer surrounding element's border.
